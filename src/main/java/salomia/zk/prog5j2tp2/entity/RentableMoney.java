@@ -19,7 +19,6 @@ public class RentableMoney extends Rentable{
     public Money getTotalLocatioPrice(){
 
         return new Money(
-                money.getId(),
                 money.getCurrency(),
                 money.getAmount() + money.getAmount()*rateInterest/100
         );

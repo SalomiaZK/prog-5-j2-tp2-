@@ -10,7 +10,6 @@ import java.math.BigDecimal;
 @Getter
 @AllArgsConstructor
 public class Money {
-    private final String id;
     private  final String currency;
     private final long amount;
 

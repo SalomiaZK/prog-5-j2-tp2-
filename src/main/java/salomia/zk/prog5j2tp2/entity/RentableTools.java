@@ -10,9 +10,9 @@ public class RentableTools extends Rentable{
     private  final Tool tool;
     private final Money rentAmount;
 
-    public RentableTools(String id, boolean isAvalable, LocalDate startDate, LocalDate endDate, Money rentAmount, Tool tool, Money rentAmount1) {
-        super(id, isAvalable, startDate, endDate, rentAmount);
+    public RentableTools(String id, boolean isAvalable, LocalDate startDate, LocalDate endDate, Tool tool, Money rentAmount) {
+        super(id, isAvalable, startDate, endDate);
         this.tool = tool;
-        this.rentAmount = rentAmount1;
+        this.rentAmount = rentAmount;
     }
 }
