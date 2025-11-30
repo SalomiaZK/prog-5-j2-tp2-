@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 
 import java.util.ArrayList;
 
+
 @AllArgsConstructor
 public class Rent {
     private final ArrayList<? extends Rentable> rentable;

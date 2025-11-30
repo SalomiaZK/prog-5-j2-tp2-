@@ -1,13 +1,19 @@
 package salomia.zk.prog5j2tp2.entity;
 
+import jakarta.persistence.Embedded;
+import jakarta.persistence.Entity;
+import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+
 @Getter
 public class RentableMoney extends Rentable{
+
     private final long rateInterest;
+    @Embedded
     private final Money money;
 
     public RentableMoney(String id, boolean isAvalable, LocalDate startDate, LocalDate endDate, long rateInterest, Money money) {
