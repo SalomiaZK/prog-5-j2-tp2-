@@ -8,7 +8,6 @@ import salomia.zk.prog5j2tp2.entity.RentableRealEstate;
 import salomia.zk.prog5j2tp2.entity.Renter;
 import salomia.zk.prog5j2tp2.service.RealEstateRenting;
 
-import java.security.Principal;
 import java.util.ArrayList;
 
 @Controller
