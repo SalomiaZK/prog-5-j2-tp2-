@@ -20,7 +20,7 @@ public class ToolController {
     }
 
     @PostMapping("/rent/tools")
-    public Rent rentTools(@RequestBody ArrayList<RentableTools> rentable, Renter renter) {
+    public Rent rentTools(@RequestBody ArrayList<RentableTools> rentable, @RequestBody Renter renter) {
        return toolsRenting.rent(rentable, renter);
     }
 }

@@ -13,5 +13,4 @@ public abstract class  Rentable {
     private final boolean isAvalable;
     private final LocalDate startDate;
     private final LocalDate endDate;
-    private final Money  rentAmount;
 }
