@@ -11,7 +11,7 @@
 
         <module name="MethodName">
             <property name="format" value="^[a-z]+([A-Z][a-z]+)*$"/>
-        </modul e>
+        </module>
 
         <module name="LocalVariableName">
             <property name="format" value="^[a-z]+([A-Z][a-z]+)*$"/>
